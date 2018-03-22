@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
                     wartosc = "wybrano opcje 1";
                 } else if (view.getId() == R.id.rbOpcja2) {
 
-                    wartosc = "wybrano opcje 2";
+                    wartosc = "wybrano opcje 3";
                 }
 
                 RadioButton radio = (RadioButton) view;
@@ -65,7 +65,7 @@ public class MainActivity extends AppCompatActivity {
             Toast.makeText(context: MainActivity.this, planety[i],
                     Toast.LENGTH_SHORT).show();
         }
-        
+
         @Override
         public void onNothingSelected(AdapterView<?> parent) {
         }
